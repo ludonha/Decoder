@@ -4,38 +4,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Decodificador</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 class="titulo">Codifica e descodifica</h1>
-
+  <header>
+    <div>
+      <img id="logo" src="img/Vector.svg" alt="alura"></img>
+    </div>
+  </header> 
   <main class="main">
     <section class="form box">
       <form action="">
-        <label for="input-texto">Apenas letras minúsculas e sem acento</label>
-        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Digite seu texto para criptografar.">
-        <input class="btn" type="submit" value="criptografar!" id="btn-cripto">
-        <input class="btn" type="submit" value="descriptografar!" id="btn-descripto">
+        <textarea class="text-input" name="input-texto" id="input-texto" rows="6" cols="35" placeholder="Digite seu texto aqui."></textarea>
+        <label><img class="exclamacion-circle" src="img/bi_exclamation-circle-fill.svg" alt="atenção"></img>Apenas letras minúsculas e sem acento.</label>
+        <div class="btn">
+          <input class="" type="submit" value="Criptografar" id="btn-cripto">
+          <input class="" type="submit" value="Descriptografar" id="btn-descripto">
+        </div>
       </form>
     </section>
-  
     <section class="msg box">
-      <h2 id="">Sua mensagem:</h2>
-      <input class="text-input" type="text" id="msg" placeholder="Nenhum resultado encontrado."></input>
-      <input class="btn" type="submit" value="copiar" id="btn-copy">
+      <textarea class="text-input" id="msg" placeholder="" readonly></textarea>
+        <div class="visivel">
+          <img id="high" src="img/High quality products 1 1.svg" alt="produto alta qualidade"></img>
+          <h2 id="Digite" >Nenhuma messagem encontrada</h2>
+          <h3 id="Digite1">Digite um texto que você deseja criptografar ou descriptografar.</h3>
+        </div>
+      <input class="invisivel" type="submit" value="Copiar" id="btn-copy">
     </section>
   </main>
   <footer class= "attribution">
     <div>
-      <h6>Oracle Next Education + Allura Challenge by Lucas Donha</h6>
-      <a href="https://www.linkedin.com/in/lucas-donha/"><img src= "img/linkedin.svg"></a>
-      <a href="https://github.com/ludonha"><img src= "img/github.svg"></a>
+      <h6>Oracle Next Education + Allura Challenge by Lucas Donha ₢ 2022</h6>
+      <a href="https://www.linkedin.com/in/lucas-donha/"><img src= "img/linkedin.svg" alt="linkdin"></a>
+      <a href="https://github.com/ludonha"><img src= "img/github.svg" alt="github"></a>
     </div>
   </footer>
-
   <script src="script.js"></script>
-  
+  <script src="invisivel.js"></script>
 </body>
 
 </html>

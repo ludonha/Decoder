@@ -28,7 +28,7 @@ function mensagem(evento) {
     var textoCofificado = criptografar(texto.value);
     caixaMensagem.value = textoCofificado;
     if (caixaMensagem.value === "undefined") {
-        caixaMensagem.value = "Digite novamente."
+        caixaMensagem.value = "";
     }    
 }
 function desmensagem(evento) {
@@ -37,11 +37,3 @@ function desmensagem(evento) {
     var textoDescodificado = descripitografar(texto.value);
     caixaMensagem.value = textoDescodificado;
 }
-function copiar() {
-    var copiar = caixaMensagem.value;
-    navigator.clipboard.writeText(copiar);
-    caixaMensagem.value = "";
-}
-
-var botaoCopiar = document.querySelector("#btn-copy");
-botaoCopiar.addEventListener("click", copiar);
