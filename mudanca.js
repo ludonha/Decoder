@@ -1,3 +1,4 @@
+//   Copiar texto
 var botaoCopiar = document.querySelector("#btn-copy");
 
 function copiarTexto() {
