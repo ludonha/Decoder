@@ -1,0 +1,7 @@
+.logo {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    position: absolute;
+}

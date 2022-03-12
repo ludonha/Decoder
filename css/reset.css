@@ -1,0 +1,14 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li,
+fieldset, form, label, legend, nav, table, footer, header, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, footer, header, nav, section {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}

@@ -1,0 +1,13 @@
+.exclamacao {
+    color: #495057;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 0 16px;
+    opacity: 0.8; 
+    vertical-align: top;
+}
+.exclamacao__imagem{
+    margin-right: 8px;
+}

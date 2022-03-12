@@ -1,0 +1,10 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(10, 56, 113, 1);
+  }
+  .rodape img{
+    height: 20px;
+    margin: 7px;
+  }

@@ -1,0 +1,15 @@
+.formulario__entrada{
+    color:rgba(10, 56, 113, 1);
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    line-height: 150%;
+    padding-bottom: 15vw;
+    resize: none;
+    outline: none;
+    width : 540px;
+}
+
+.formulario__entrada::placeholder{
+    color:rgba(10, 56, 113, 1);
+}

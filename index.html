@@ -5,47 +5,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Decodificador</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/logo.css">
+  <link rel="stylesheet" href="css/formulario/formulario.css">
+  <link rel="stylesheet" href="css/formulario/formulario-entrada.css">
+  <link rel="stylesheet" href="css/formulario/exclamacao-imagem.css">
+  <link rel="stylesheet" href="css/formulario/botoes.css">
+  <link rel="stylesheet" href="css/mensagem/mensagem.css">
+  <link rel="stylesheet" href="css/mensagem/mensagem-conteudo.css">
+  <link rel="stylesheet" href="css/mensagem/mensagem-saida.css">
+  <link rel="stylesheet" href="css/mensagem/botao-copiar.css">
+  <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
   <header>
     <div>
-      <img id="logo" src="img/Vector.svg" alt="alura"></img>
+      <img class="logo" src="img/Vector.svg" alt="alura"></img>
     </div>
   </header> 
-  <main class="main">
-    <section class="form box">
-      <form action="">
-        <textarea class="text-input" name="input-texto" id="input-texto" rows="6" cols="35" placeholder="Digite seu texto aqui."></textarea>
-        <label><img class="exclamacion-circle" src="img/bi_exclamation-circle-fill.svg" alt="atenção"></img>Apenas letras minúsculas e sem acento.</label>
-        <div class="btn">
-          <input class="" type="submit" value="Criptografar" id="btn-cripto">
-          <input class="" type="submit" value="Descriptografar" id="btn-descripto">
+  <main>
+    <section>
+      <form class="formulario">
+        <div>
+          <textarea class="formulario__entrada" name="input-texto" id="input-texto" rows="5" placeholder="Digite seu texto aqui."></textarea>
+        </div>
+        <label class="exclamacao"><img class="exclamacao__imagem" src="img/bi_exclamation-circle-fill.svg" alt="atenção"></img>Apenas letras minúsculas e sem acento.</label>
+        <div class="botoes">
+          <input class="botao__cripto" type="submit" value="Criptografar" id="btn-cripto">
+          <input class="botao__descripto" type="submit" value="Descriptografar" id="btn-descripto">
         </div>
       </form>
     </section>
-    <section class="msg box">
-      <textarea class="text-input" id="msg" placeholder="" readonly></textarea>
-        <div class="visivel">
-          <img id="high" src="img/High quality products 1 1.svg" alt="produto alta qualidade"></img>
-          <h2 id="Digite" >Nenhuma messagem encontrada</h2>
-          <h3 id="Digite1">Digite um texto que você deseja criptografar ou descriptografar.</h3>
+    <section>
+      <div class="mensagem">
+        <textarea class="mensagem__saida" id="msg" readonly></textarea> 
+        <div class="mensagem__conteudo">
+          <div class="conteudo__imagem"></div>
+          <p class="conteudo--nenhuma" >Nenhuma messagem encontrada</p>
+          <p class="conteudo--digite">Digite um texto que você deseja criptografar ou descriptografar.</p>
         </div>
-      <input class="invisivel" type="submit" value="Copiar" id="btn-copy">
+        <input class="botao__copiar" type="submit" value="Copiar" id="btn-copy">
+      </div>
     </section>
   </main>
-  <footer class= "attribution">
+  <footer class= "rodape">
     <div>
       <p>Oracle Next Education + Allura Challenge by Lucas Donha - 2022</p>
       <a href="https://www.linkedin.com/in/lucas-donha/"><img src= "img/linkedin.svg" alt="linkdin"></a>
       <a href="https://github.com/ludonha"><img src= "img/github.svg" alt="github"></a>
     </div>
   </footer>
-  <script src="script.js"></script>
-  <script src="mudanca.js"></script>
+  <script src="decodificador.js"></script>
+  <script src="copiar.js"></script>
 </body>
 
 </html>

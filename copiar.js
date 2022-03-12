@@ -11,7 +11,7 @@ function copiarTexto() {
     
 botaoCopiar.addEventListener("click", copiarTexto);
 
-//pode chamar direto addEvent
+//pode também chamar direto no addEventListener
 inputCripto.onclick = botaoVisivel;
 inputDescripto.onclick = botaoVisivel;
 

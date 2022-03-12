@@ -1,0 +1,27 @@
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+}
+
+.botao__cripto {
+    color: #FFFFFF;
+    background: #0A3871;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 24px;
+    width: 328px;
+
+}
+.botao__descripto {
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    background:#D8DFE8;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 24px;
+    width: 328px;
+}
