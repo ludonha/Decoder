@@ -1,0 +1,23 @@
+.mensagem__conteudo{
+    /*display: none;*/
+    height: 122px;
+    padding-top: 32px;
+    width: 336px;
+}
+.conteudo--nenhuma {
+    color: #343A40;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+.conteudo--digite {
+    color: #495057;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+  

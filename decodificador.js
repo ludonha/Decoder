@@ -14,13 +14,13 @@ var regex = /^[a-z\s]*$/
 
 function criptografar(texto) {
     if (regex.test(texto)) {
-        return texto.replaceAll('a', 'ai').replaceAll('e', 'enter').replaceAll('i', 'imes').replaceAll('o', 'ober').replaceAll('u', 'ufat');
+        return texto.replaceAll('e', 'enter').replaceAll('i', 'imes').replaceAll('a', 'ai').replaceAll('o', 'ober').replaceAll('u', 'ufat');
     } else {
         alert("Apenas letras minúsculas e sem acentuação!!!");
     }
 }
 function descripitografar(texto) {
-    return texto.replaceAll('ai', 'a').replaceAll('enter', 'e').replaceAll('imes', 'i').replaceAll('ober', 'o').replaceAll('ufat', 'u');
+    return texto.replaceAll('enter', 'e').replaceAll('imes', 'i').replaceAll('ai', 'a').replaceAll('ober', 'o').replaceAll('ufat', 'u');
 }
 function mensagem(evento) {
     evento.preventDefault();

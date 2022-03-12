@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/body-box-meio.css">
   <link rel="stylesheet" href="css/logo.css">
   <link rel="stylesheet" href="css/formulario/formulario.css">
   <link rel="stylesheet" href="css/formulario/formulario-entrada.css">
@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/mensagem/mensagem-conteudo.css">
   <link rel="stylesheet" href="css/mensagem/mensagem-saida.css">
   <link rel="stylesheet" href="css/mensagem/botao-copiar.css">
+  <link rel="stylesheet" href="css/mensagem/conteudo-imagem.css">
   <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
@@ -27,8 +28,8 @@
       <img class="logo" src="img/Vector.svg" alt="alura"></img>
     </div>
   </header> 
-  <main>
-    <section>
+  <main class="box__meio">
+    <section class="box__formulario">
       <form class="formulario">
         <div>
           <textarea class="formulario__entrada" name="input-texto" id="input-texto" rows="5" placeholder="Digite seu texto aqui."></textarea>
@@ -40,11 +41,11 @@
         </div>
       </form>
     </section>
-    <section>
+    <section class="box__mensagem">
       <div class="mensagem">
         <textarea class="mensagem__saida" id="msg" readonly></textarea> 
+        <div class="conteudo__imagem"></div>
         <div class="mensagem__conteudo">
-          <div class="conteudo__imagem"></div>
           <p class="conteudo--nenhuma" >Nenhuma messagem encontrada</p>
           <p class="conteudo--digite">Digite um texto que você deseja criptografar ou descriptografar.</p>
         </div>
