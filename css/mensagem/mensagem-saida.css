@@ -8,3 +8,9 @@
     outline: none;
     resize: none;
 }
+@media screen and (max-width: 769px) {
+    .mensagem__saida{
+        width: 688px;
+        height: 343px;
+    }
+}

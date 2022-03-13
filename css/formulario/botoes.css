@@ -25,3 +25,12 @@
     padding: 24px;
     width: 328px;
 }
+@media screen and (max-width: 425px) {
+    .botoes {
+        flex-direction: column;
+        width: auto;
+    }
+    .botao__cripto{
+        margin-bottom: 24px;
+    }
+}

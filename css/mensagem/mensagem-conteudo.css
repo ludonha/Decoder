@@ -1,7 +1,6 @@
 .mensagem__conteudo{
     /*display: none;*/
     height: 122px;
-    padding-top: 32px;
     width: 336px;
 }
 .conteudo--nenhuma {
@@ -20,4 +19,8 @@
     line-height: 150%;
     text-align: center;
 }
-  
+@media screen and (min-width: 769px) {
+    .mensagem__conteudo {
+        padding-top: 32px;
+    }
+}

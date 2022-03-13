@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 20% 5% 5%;
     /*position: absolute;*/
-    padding: 12% 0 0 17%;
+    
+}
+@media screen and (min-width: 769px) {
+    .formulario{
+        padding: 12% 0 0 17%;
+    }
 }

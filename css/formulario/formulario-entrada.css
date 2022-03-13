@@ -13,3 +13,8 @@
 .formulario__entrada::placeholder{
     color:rgba(10, 56, 113, 1);
 }
+@media screen and (max-width: 425px) {
+    .formulario__entrada{
+        width: 340px;
+    }
+}

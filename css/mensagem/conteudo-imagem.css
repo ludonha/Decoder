@@ -1,6 +1,9 @@
-.conteudo__imagem {
-    /*display: none;*/
-    background-image: url(../../img/High\ quality\ products\ 1\ 1.svg);
-    width: 336px;
-    height: 304px;
+
+@media screen and (min-width: 769px) {
+    .conteudo__imagem {
+        /*display: none;*/
+        background-image: url(../../img/High\ quality\ products\ 1\ 1.svg);
+        width: 336px;
+        height: 304px;
+    }
 }
