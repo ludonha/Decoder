@@ -2,15 +2,18 @@
     color:rgba(10, 56, 113, 1);
     background-color: transparent;
     border: none;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     line-height: 150%;
-    padding-bottom: 15vw;
+    padding-bottom: 10vw;
     resize: none;
     outline: none;
     width : 600px;
+    
 }
 
 .formulario__entrada::placeholder{
+    font-family: 'Inter', sans-serif;
     color:rgba(10, 56, 113, 1);
 }
 @media screen and (max-width: 425px) {
