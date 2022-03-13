@@ -16,7 +16,7 @@ function criptografar(texto) {
     if (regex.test(texto)) {
         return texto.replaceAll('e', 'enter').replaceAll('i', 'imes').replaceAll('a', 'ai').replaceAll('o', 'ober').replaceAll('u', 'ufat');
     } else {
-        alert("Apenas letras minúsculas e sem acentuação!!!");
+        alert("Apenas letras minúsculas e sem acentuação!!");
     }
 }
 function descripitografar(texto) {
