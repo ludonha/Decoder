@@ -25,3 +25,10 @@ body{
     flex-direction: column;
   } 
 }
+@media screen and (min-width: 2560px){
+  .box__meio{
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: auto;
+  }
+}
