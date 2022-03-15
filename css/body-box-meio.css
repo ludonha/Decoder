@@ -8,12 +8,16 @@ body{
 .box__meio{
   display: grid;
   grid-template-areas: 
-  "box__formulario box__mensagem"
-  "box__formulario box__mensagem"
-  "box__formulario box__mensagem"
+    "formulario mensagem"
   ;
   grid-template-columns: 65% auto;
   padding: 4% 0;
+}
+.box__formulario{
+  grid-area: formulario;
+}
+.box__mensagem{
+  grid-area: mensagem;
 }
 @media screen and (max-width: 769px) {
   .box__meio{
